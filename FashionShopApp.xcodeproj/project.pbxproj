@@ -8,22 +8,28 @@
 
 /* Begin PBXBuildFile section */
 		F706BE142CA2EE5B00E7C8E7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F706BE132CA2EE5B00E7C8E7 /* AppDelegate.swift */; };
-		F706BE162CA2EE5B00E7C8E7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F706BE152CA2EE5B00E7C8E7 /* SceneDelegate.swift */; };
-		F706BE182CA2EE5B00E7C8E7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F706BE172CA2EE5B00E7C8E7 /* ViewController.swift */; };
 		F706BE1B2CA2EE5B00E7C8E7 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = F706BE1A2CA2EE5B00E7C8E7 /* Base */; };
 		F706BE1D2CA2EE5D00E7C8E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F706BE1C2CA2EE5D00E7C8E7 /* Assets.xcassets */; };
 		F706BE202CA2EE5D00E7C8E7 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = F706BE1F2CA2EE5D00E7C8E7 /* Base */; };
+		F706BE302CA2F2B300E7C8E7 /* OnboardingEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = F706BE2F2CA2F2B300E7C8E7 /* OnboardingEntity.swift */; };
+		F706BE322CA2F2D700E7C8E7 /* OnboardingInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F706BE312CA2F2D700E7C8E7 /* OnboardingInteractor.swift */; };
+		F706BE342CA2F2F100E7C8E7 /* OnboardingPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F706BE332CA2F2F100E7C8E7 /* OnboardingPresenter.swift */; };
+		F706BE362CA2F30200E7C8E7 /* OnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F706BE352CA2F30200E7C8E7 /* OnboardingViewController.swift */; };
+		F706BE382CA2F31C00E7C8E7 /* OnboardingRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F706BE372CA2F31C00E7C8E7 /* OnboardingRouter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F706BE102CA2EE5B00E7C8E7 /* FashionShopApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FashionShopApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F706BE132CA2EE5B00E7C8E7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F706BE152CA2EE5B00E7C8E7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F706BE172CA2EE5B00E7C8E7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F706BE1A2CA2EE5B00E7C8E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F706BE1C2CA2EE5D00E7C8E7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F706BE1F2CA2EE5D00E7C8E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F706BE212CA2EE5D00E7C8E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F706BE2F2CA2F2B300E7C8E7 /* OnboardingEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingEntity.swift; sourceTree = "<group>"; };
+		F706BE312CA2F2D700E7C8E7 /* OnboardingInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingInteractor.swift; sourceTree = "<group>"; };
+		F706BE332CA2F2F100E7C8E7 /* OnboardingPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingPresenter.swift; sourceTree = "<group>"; };
+		F706BE352CA2F30200E7C8E7 /* OnboardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewController.swift; sourceTree = "<group>"; };
+		F706BE372CA2F31C00E7C8E7 /* OnboardingRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingRouter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +62,74 @@
 		F706BE122CA2EE5B00E7C8E7 /* FashionShopApp */ = {
 			isa = PBXGroup;
 			children = (
+				F706BE272CA2F01D00E7C8E7 /* Kit */,
+				F706BE2A2CA2F05200E7C8E7 /* Utils */,
+				F706BE2B2CA2F06200E7C8E7 /* Modules */,
+				F706BE2D2CA2F07E00E7C8E7 /* Storyboards */,
 				F706BE132CA2EE5B00E7C8E7 /* AppDelegate.swift */,
-				F706BE152CA2EE5B00E7C8E7 /* SceneDelegate.swift */,
-				F706BE172CA2EE5B00E7C8E7 /* ViewController.swift */,
-				F706BE192CA2EE5B00E7C8E7 /* Main.storyboard */,
 				F706BE1C2CA2EE5D00E7C8E7 /* Assets.xcassets */,
-				F706BE1E2CA2EE5D00E7C8E7 /* LaunchScreen.storyboard */,
 				F706BE212CA2EE5D00E7C8E7 /* Info.plist */,
 			);
 			path = FashionShopApp;
+			sourceTree = "<group>";
+		};
+		F706BE272CA2F01D00E7C8E7 /* Kit */ = {
+			isa = PBXGroup;
+			children = (
+				F706BE292CA2F03700E7C8E7 /* Network */,
+				F706BE282CA2F02C00E7C8E7 /* Models */,
+			);
+			path = Kit;
+			sourceTree = "<group>";
+		};
+		F706BE282CA2F02C00E7C8E7 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F706BE292CA2F03700E7C8E7 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		F706BE2A2CA2F05200E7C8E7 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		F706BE2B2CA2F06200E7C8E7 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				F706BE2E2CA2F28700E7C8E7 /* Onboarding */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		F706BE2D2CA2F07E00E7C8E7 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				F706BE1E2CA2EE5D00E7C8E7 /* LaunchScreen.storyboard */,
+				F706BE192CA2EE5B00E7C8E7 /* Main.storyboard */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
+		F706BE2E2CA2F28700E7C8E7 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				F706BE2F2CA2F2B300E7C8E7 /* OnboardingEntity.swift */,
+				F706BE312CA2F2D700E7C8E7 /* OnboardingInteractor.swift */,
+				F706BE332CA2F2F100E7C8E7 /* OnboardingPresenter.swift */,
+				F706BE352CA2F30200E7C8E7 /* OnboardingViewController.swift */,
+				F706BE372CA2F31C00E7C8E7 /* OnboardingRouter.swift */,
+			);
+			path = Onboarding;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,9 +203,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F706BE182CA2EE5B00E7C8E7 /* ViewController.swift in Sources */,
+				F706BE302CA2F2B300E7C8E7 /* OnboardingEntity.swift in Sources */,
+				F706BE362CA2F30200E7C8E7 /* OnboardingViewController.swift in Sources */,
+				F706BE382CA2F31C00E7C8E7 /* OnboardingRouter.swift in Sources */,
+				F706BE342CA2F2F100E7C8E7 /* OnboardingPresenter.swift in Sources */,
 				F706BE142CA2EE5B00E7C8E7 /* AppDelegate.swift in Sources */,
-				F706BE162CA2EE5B00E7C8E7 /* SceneDelegate.swift in Sources */,
+				F706BE322CA2F2D700E7C8E7 /* OnboardingInteractor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -218,7 +286,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -275,7 +343,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -295,11 +363,13 @@
 				DEVELOPMENT_TEAM = 47CJ769Y3U;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = FashionShopApp/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.shopping";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -307,6 +377,10 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.dogaaa.FashionShopApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -323,11 +397,13 @@
 				DEVELOPMENT_TEAM = 47CJ769Y3U;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = FashionShopApp/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.shopping";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -335,6 +411,10 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.dogaaa.FashionShopApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
