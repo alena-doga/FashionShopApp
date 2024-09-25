@@ -16,6 +16,17 @@
 		F706BE342CA2F2F100E7C8E7 /* OnboardingPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F706BE332CA2F2F100E7C8E7 /* OnboardingPresenter.swift */; };
 		F706BE362CA2F30200E7C8E7 /* OnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F706BE352CA2F30200E7C8E7 /* OnboardingViewController.swift */; };
 		F706BE382CA2F31C00E7C8E7 /* OnboardingRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F706BE372CA2F31C00E7C8E7 /* OnboardingRouter.swift */; };
+		F71E03472CA4409C00B04258 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71E03462CA4409C00B04258 /* CustomButton.swift */; };
+		F71E034A2CA4453700B04258 /* Urbanist-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F71E03492CA4453700B04258 /* Urbanist-Bold.ttf */; };
+		F71E034D2CA4472000B04258 /* PageContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71E034C2CA4472000B04258 /* PageContentViewController.swift */; };
+		F71E034F2CA4475100B04258 /* CustomPageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71E034E2CA4475100B04258 /* CustomPageControl.swift */; };
+		F71E03522CA448C000B04258 /* GetStartedEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71E03512CA448C000B04258 /* GetStartedEntity.swift */; };
+		F71E03542CA448CF00B04258 /* GetStartedInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71E03532CA448CF00B04258 /* GetStartedInteractor.swift */; };
+		F71E03562CA448DC00B04258 /* GetStartedPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71E03552CA448DC00B04258 /* GetStartedPresenter.swift */; };
+		F71E035A2CA448FA00B04258 /* GetStartedRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71E03592CA448FA00B04258 /* GetStartedRouter.swift */; };
+		F71E035E2CA44E0100B04258 /* Urbanist-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F71E035D2CA44E0100B04258 /* Urbanist-Regular.ttf */; };
+		F71E03612CA451EC00B04258 /* ExtensionLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71E03602CA451EC00B04258 /* ExtensionLabel.swift */; };
+		F71E03642CA4743D00B04258 /* GetStartedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71E03632CA4743D00B04258 /* GetStartedViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +41,17 @@
 		F706BE332CA2F2F100E7C8E7 /* OnboardingPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingPresenter.swift; sourceTree = "<group>"; };
 		F706BE352CA2F30200E7C8E7 /* OnboardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewController.swift; sourceTree = "<group>"; };
 		F706BE372CA2F31C00E7C8E7 /* OnboardingRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingRouter.swift; sourceTree = "<group>"; };
+		F71E03462CA4409C00B04258 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		F71E03492CA4453700B04258 /* Urbanist-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Urbanist-Bold.ttf"; sourceTree = "<group>"; };
+		F71E034C2CA4472000B04258 /* PageContentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageContentViewController.swift; sourceTree = "<group>"; };
+		F71E034E2CA4475100B04258 /* CustomPageControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomPageControl.swift; sourceTree = "<group>"; };
+		F71E03512CA448C000B04258 /* GetStartedEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetStartedEntity.swift; sourceTree = "<group>"; };
+		F71E03532CA448CF00B04258 /* GetStartedInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetStartedInteractor.swift; sourceTree = "<group>"; };
+		F71E03552CA448DC00B04258 /* GetStartedPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetStartedPresenter.swift; sourceTree = "<group>"; };
+		F71E03592CA448FA00B04258 /* GetStartedRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetStartedRouter.swift; sourceTree = "<group>"; };
+		F71E035D2CA44E0100B04258 /* Urbanist-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Urbanist-Regular.ttf"; sourceTree = "<group>"; };
+		F71E03602CA451EC00B04258 /* ExtensionLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionLabel.swift; sourceTree = "<group>"; };
+		F71E03632CA4743D00B04258 /* GetStartedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetStartedViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +121,10 @@
 		F706BE2A2CA2F05200E7C8E7 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				F71E035F2CA451C400B04258 /* Extension */,
+				F71E034B2CA446DC00B04258 /* Helper */,
+				F71E03482CA444FD00B04258 /* Fonts */,
+				F71E03452CA4407F00B04258 /* Сomponents */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -106,6 +132,7 @@
 		F706BE2B2CA2F06200E7C8E7 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				F71E03502CA4489400B04258 /* GetStarted */,
 				F706BE2E2CA2F28700E7C8E7 /* Onboarding */,
 			);
 			path = Modules;
@@ -123,6 +150,7 @@
 		F706BE2E2CA2F28700E7C8E7 /* Onboarding */ = {
 			isa = PBXGroup;
 			children = (
+				F71E03622CA4695C00B04258 /* UIPageViewController */,
 				F706BE2F2CA2F2B300E7C8E7 /* OnboardingEntity.swift */,
 				F706BE312CA2F2D700E7C8E7 /* OnboardingInteractor.swift */,
 				F706BE332CA2F2F100E7C8E7 /* OnboardingPresenter.swift */,
@@ -130,6 +158,59 @@
 				F706BE372CA2F31C00E7C8E7 /* OnboardingRouter.swift */,
 			);
 			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		F71E03452CA4407F00B04258 /* Сomponents */ = {
+			isa = PBXGroup;
+			children = (
+				F71E034E2CA4475100B04258 /* CustomPageControl.swift */,
+				F71E03462CA4409C00B04258 /* CustomButton.swift */,
+			);
+			path = "Сomponents";
+			sourceTree = "<group>";
+		};
+		F71E03482CA444FD00B04258 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				F71E03492CA4453700B04258 /* Urbanist-Bold.ttf */,
+				F71E035D2CA44E0100B04258 /* Urbanist-Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		F71E034B2CA446DC00B04258 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		F71E03502CA4489400B04258 /* GetStarted */ = {
+			isa = PBXGroup;
+			children = (
+				F71E03512CA448C000B04258 /* GetStartedEntity.swift */,
+				F71E03532CA448CF00B04258 /* GetStartedInteractor.swift */,
+				F71E03552CA448DC00B04258 /* GetStartedPresenter.swift */,
+				F71E03632CA4743D00B04258 /* GetStartedViewController.swift */,
+				F71E03592CA448FA00B04258 /* GetStartedRouter.swift */,
+			);
+			path = GetStarted;
+			sourceTree = "<group>";
+		};
+		F71E035F2CA451C400B04258 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				F71E03602CA451EC00B04258 /* ExtensionLabel.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		F71E03622CA4695C00B04258 /* UIPageViewController */ = {
+			isa = PBXGroup;
+			children = (
+				F71E034C2CA4472000B04258 /* PageContentViewController.swift */,
+			);
+			path = UIPageViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,6 +274,8 @@
 				F706BE1D2CA2EE5D00E7C8E7 /* Assets.xcassets in Resources */,
 				F706BE202CA2EE5D00E7C8E7 /* Base in Resources */,
 				F706BE1B2CA2EE5B00E7C8E7 /* Base in Resources */,
+				F71E034A2CA4453700B04258 /* Urbanist-Bold.ttf in Resources */,
+				F71E035E2CA44E0100B04258 /* Urbanist-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -204,11 +287,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				F706BE302CA2F2B300E7C8E7 /* OnboardingEntity.swift in Sources */,
+				F71E03542CA448CF00B04258 /* GetStartedInteractor.swift in Sources */,
+				F71E034D2CA4472000B04258 /* PageContentViewController.swift in Sources */,
+				F71E03612CA451EC00B04258 /* ExtensionLabel.swift in Sources */,
 				F706BE362CA2F30200E7C8E7 /* OnboardingViewController.swift in Sources */,
 				F706BE382CA2F31C00E7C8E7 /* OnboardingRouter.swift in Sources */,
 				F706BE342CA2F2F100E7C8E7 /* OnboardingPresenter.swift in Sources */,
+				F71E03522CA448C000B04258 /* GetStartedEntity.swift in Sources */,
+				F71E03472CA4409C00B04258 /* CustomButton.swift in Sources */,
 				F706BE142CA2EE5B00E7C8E7 /* AppDelegate.swift in Sources */,
 				F706BE322CA2F2D700E7C8E7 /* OnboardingInteractor.swift in Sources */,
+				F71E035A2CA448FA00B04258 /* GetStartedRouter.swift in Sources */,
+				F71E034F2CA4475100B04258 /* CustomPageControl.swift in Sources */,
+				F71E03562CA448DC00B04258 /* GetStartedPresenter.swift in Sources */,
+				F71E03642CA4743D00B04258 /* GetStartedViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,28 +1,28 @@
 //
-//  OnboardingRouter.swift
+//  GetStartedRouter.swift
 //  FashionShopApp
 //
-//  Created by Alena on 24.09.2024.
+//  Created by Alena on 25.09.2024.
 //
 
 import UIKit
 
-protocol OnboardingRouterInput {
+protocol GetStartedRouterInput {
     static func createModule() -> UIViewController
-    func navigateToLetsGetStarted(from view: UIViewController)
+//    func navigateToRegister(from view: UIViewController)
 }
 
-class OnboardingRouter: OnboardingRouterInput {
+class GetStartedRouter: GetStartedRouterInput {
     
     // Создание модуля Onboarding с кодом, без использования сторибордов
     static func createModule() -> UIViewController {
         // Инициализация ViewController вручную
-        let view = OnboardingViewController()
+        let view = GetStartedViewController()
         
         // Создание VIPER компонентов
-        let presenter = OnboardingPresenter()
-        let interactor = OnboardingInteractor()
-        let router = OnboardingRouter()
+        let presenter = GetStartedPresenter()
+        let interactor = GetStartedInteractor()
+        let router = GetStartedRouter()
         
         // Установка зависимостей
         view.output = presenter
@@ -33,8 +33,8 @@ class OnboardingRouter: OnboardingRouterInput {
         
         return view
     }
-    func navigateToLetsGetStarted(from view: UIViewController) {
-        let letsGetStartedViewController = GetStartedRouter.createModule()
-        view.navigationController?.pushViewController(letsGetStartedViewController, animated: true)
-       }
+//    func navigateToRegister(from view: UIViewController) {
+//        let registerViewController = RegisterRouter.createModule()
+//        view.navigationController?.pushViewController(registerViewController, animated: true)
+//       }
 }
